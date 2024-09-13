@@ -3,7 +3,7 @@ import profile from "../assets/file.png";
 import leetcode from "../assets/leetcode-svgrepo-com.svg";
 import instagram from "../assets/instagram-logo-thin-svgrepo-com.svg";
 import linkedin from "../assets/linkedin-svgrepo-com.svg";
-import acm from "../assets/acm-svgrepo-com (1).svg";
+import acm from "../assets/acm-svgrepo-com.svg";
 import AnimatedText from "@/components/AnimatedText";
 
 const LINKS = [
