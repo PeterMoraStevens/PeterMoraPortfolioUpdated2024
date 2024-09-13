@@ -59,12 +59,12 @@ function Work() {
                 <p className="mt-2">{project.description}</p>
 
                 <div className="mt-8 grid grid-cols-2 gap-5">
-                  <Button disabled={project.notLive}>
-                    <Link to={project.liveLink}>Visit</Link>
-                  </Button>
-                  <Button>
-                    <Link to={project.repoUrl}>Github</Link>
-                  </Button>
+                  <Link to={project.liveLink}>
+                    <Button disabled={project.notLive}>Visit</Button>
+                  </Link>
+                  <Link to={project.repoUrl}>
+                    <Button>Github</Button>
+                  </Link>
                 </div>
               </div>
             </div>
