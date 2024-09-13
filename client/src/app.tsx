@@ -3,7 +3,7 @@ import About from "./routes/about";
 import Error from "./routes/error";
 import Footer from "./components/ui/footer";
 import Blog from "./routes/Blog";
-import { Route, Routes, useLocation, BrowserRouter } from "react-router-dom";
+import { Route, Routes, useLocation, HashRouter } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import "./index.css";
 import Navbar from "./components/navbar";
@@ -30,11 +30,11 @@ const ProfileRouter = () => {
 const app = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <ProfileRouter />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
