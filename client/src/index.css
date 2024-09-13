@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "SpaceGrotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/SpaceGrotesk.ttf") format("TrueType");
+  }
+}
+
+body {
+  font-family: "SpaceGrotesk";
+}
+
+/* .slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+  z-index: 99;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
+  z-index: 99;
+} */
+
+.markdown > * {
+  all: revert;
+}
+
+.bar-in {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 33.33%;
+  transform-origin: bottom;
+  z-index: 99;
+}
+
+.bar-out {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 33.33%;
+  transform-origin: top;
+  z-index: 99;
+}
+
+.bar1 {
+  left: 0;
+}
+
+.bar2 {
+  left: 33.33%;
+}
+
+.bar3 {
+  left: 66.66%;
+}
