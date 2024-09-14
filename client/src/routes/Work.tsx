@@ -58,12 +58,14 @@ function Work() {
 
                 <p className="mt-2">{project.description}</p>
 
-                <div className="mt-8 grid grid-cols-2 gap-5">
-                  <Link to={project.liveLink}>
-                    <Button disabled={project.notLive}>Visit</Button>
+                <div className="mt-8 flex items-center">
+                  <Link to={project.liveLink} className="w-full mr-4">
+                    <Button disabled={project.notLive} className="w-full">
+                      Visit
+                    </Button>
                   </Link>
-                  <Link to={project.repoUrl}>
-                    <Button>Github</Button>
+                  <Link to={project.repoUrl} className="w-full ml-4">
+                    <Button className="w-full">Github</Button>
                   </Link>
                 </div>
               </div>
