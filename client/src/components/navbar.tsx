@@ -86,7 +86,7 @@ const Navbar = () => {
       <div className="font-spaceGrotesk p-6 px-12 bg-bg border-darkBorder border-b-4 flex items-center">
         <Popover>
           <PopoverTrigger asChild>
-            <Button variant="noShadow" className="p-2 mr-2">
+            <Button className="p-2 mr-2">
               <Menu />
             </Button>
           </PopoverTrigger>

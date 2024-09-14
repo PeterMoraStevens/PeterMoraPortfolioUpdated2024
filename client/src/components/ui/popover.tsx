@@ -1,10 +1,23 @@
 import * as PopoverPrimitive from "@radix-ui/react-popover";
-
 import * as React from "react";
-
 import { cn } from "@/lib/utils";
+import { useLocation } from "react-router-dom";
 
-const Popover = PopoverPrimitive.Root;
+const Popover = ({ children }: any) => {
+  const [open, setOpen] = React.useState(false);
+  const location = useLocation(); // Get location object from React Router
+
+  React.useEffect(() => {
+    // Close the popover when the route changes
+    setOpen(false);
+  }, [location]);
+
+  return (
+    <PopoverPrimitive.Root open={open} onOpenChange={setOpen}>
+      {children}
+    </PopoverPrimitive.Root>
+  );
+};
 
 const PopoverTrigger = PopoverPrimitive.Trigger;
 
