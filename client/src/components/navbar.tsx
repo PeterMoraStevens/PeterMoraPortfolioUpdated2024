@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
           <Link to={"/about"} className="mx-1">
             <Button>
-              <SmileIcon className="mr-2" /> About
+              <SmileIcon className="mr-2" /> About Me
             </Button>
           </Link>
           <Link to={"/portfolio"} className="mx-1">
@@ -104,7 +104,7 @@ const Navbar = () => {
                 <div className="grid grid-cols-3 items-center gap-4">
                   <Link to={"/about"} className="mx-1 m-1">
                     <Button>
-                      <SmileIcon className="mr-2" /> About
+                      <SmileIcon className="mr-2" /> About Me
                     </Button>
                   </Link>
                 </div>

@@ -4,6 +4,7 @@ import leetcode from "../assets/leetcode-svgrepo-com.svg";
 import instagram from "../assets/instagram-logo-thin-svgrepo-com.svg";
 import linkedin from "../assets/linkedin-svgrepo-com.svg";
 import acm from "../assets/acm-svgrepo-com.svg";
+import discord from "../assets/discord-icon-svgrepo-com.svg";
 import AnimatedText from "@/components/AnimatedText";
 
 const LINKS = [
@@ -30,6 +31,13 @@ const LINKS = [
   },
   {
     key: 3,
+    link: "https://discord.com/",
+    title: "Discord",
+    icon: discord,
+    text: "@peterpan_",
+  },
+  {
+    key: 4,
     link: "https://leetcode.com/u/PeterMoraStevens/",
     title: "Leetcode",
     icon: leetcode,
@@ -54,7 +62,7 @@ function Socials() {
           </p>
         </div>
       </div>
-      <div className="justify-end xl:flex">
+      <div className="justify-end xl:flex mb-8">
         <div
           id="grid-container"
           className="text-text dark:text-text grid w-full grid-cols-2 gap-10 md:grid-cols-3 xl:w-1/2 xl:pb-16 w450:grid-cols-1 w450:gap-7"
