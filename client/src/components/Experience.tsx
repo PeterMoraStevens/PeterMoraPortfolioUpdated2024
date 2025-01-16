@@ -2,7 +2,7 @@ const PAST_ROLES = [
   {
     role: "Software Engineering Intern",
     id: 0,
-    company: "Oregon State University",
+    company: "Netflix",
     startDate: "June 2025",
     endDate: "August 2025",
     description: "Incoming SWE intern @ Netflix | Android Mobile Team 📱",
