@@ -4,9 +4,16 @@ import { Link } from "react-router-dom";
 const POSTS = [
   {
     title: "Zero to Hero DSA",
-    description: "how I learned DSA and got an internship @ Uber",
+    description: "How I learned DSA and got an internship @ Uber",
     link: "ZeroToHeroACM.md",
     date: "September 13th, 2024",
+  },
+  {
+    title: "Expanding ACM to 12 Officers",
+    description:
+      "How I expanded one of the largest computer science clubs at Oregon State",
+    link: "ExpandingACM.md",
+    date: "January 15th, 2025",
   },
 ];
 

@@ -8,7 +8,7 @@ export default function Bio() {
           Hi, my name is Peter! I'm a third-year at Oregon State in Computer
           Science. I'm increadibly excited about building engaging and unique
           user experiences. I do lots of leetcode but find creative outlets in
-          photography and web development!
+          photography, cooking, and web development!
         </p>
       </div>
     </div>
