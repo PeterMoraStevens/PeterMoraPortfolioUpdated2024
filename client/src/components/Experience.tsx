@@ -5,16 +5,17 @@ const PAST_ROLES = [
     company: "Netflix",
     startDate: "June 2025",
     endDate: "August 2025",
-    description: "Incoming SWE intern @ Netflix | Android Mobile Team 📱",
+    description:
+      "Expanded Android mobile device testing capabilities to include Audio Quality. Tests are provided to partner companies.",
   },
   {
     role: "Teaching Assistant",
     id: 0,
     company: "Oregon State University",
     startDate: "September 2024",
-    endDate: "Now",
+    endDate: "Present",
     description:
-      "Helping students in Data Structures (CS 261) during their recitations and in office hours. Helping professor with grading exams and assignments",
+      "Helping students in Data Structures (CS 261) during their recitations and in office hours for over 200+ students. Helping professor with grading exams and assignments",
   },
   {
     role: "Software Engineering Intern",

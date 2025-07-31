@@ -2,18 +2,32 @@ import transition from "@/components/transition";
 import { Link } from "react-router-dom";
 
 const POSTS = [
-  {
-    title: "Zero to Hero DSA",
-    description: "How I learned DSA and got an internship @ Uber",
-    link: "ZeroToHeroACM.md",
-    date: "September 13th, 2024",
-  },
+  // {
+  //   title: "Making a Resume Builder",
+  //   description:
+  //     "I created a resume builder for students, here's what I did, the features and lessons I learned",
+  //   link: "ResumeBuilder.md",
+  //   date: "May 15th, 2025",
+  // },
+  // {
+  //   title: "Prep for Internship @ Netflix",
+  //   description:
+  //     "I start for my internship in 3 days, here's what I've been practicing and how I'm preparing",
+  //   link: "PrepForInternship.md",
+  //   date: "May 30th, 2025",
+  // },
   {
     title: "Expanding ACM to 12 Officers",
     description:
       "How I expanded one of the largest computer science clubs at Oregon State",
     link: "ExpandingACM.md",
     date: "January 15th, 2025",
+  },
+  {
+    title: "Zero to Hero DSA",
+    description: "How I learned DSA and got an internship @ Uber",
+    link: "ZeroToHeroACM.md",
+    date: "September 13th, 2024",
   },
 ];
 
