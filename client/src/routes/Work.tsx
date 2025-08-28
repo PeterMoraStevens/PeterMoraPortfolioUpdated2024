@@ -1,4 +1,3 @@
-import { AspectRatio } from "../components/ui/AspectRatio";
 import Flipable from "../assets/Screenshot 2024-09-13 at 12.25.34 PM.png";
 import Workout from "../assets/Screenshot 2024-09-08 at 9.01.44 AM.png";
 import FormaCV from "../assets/formacv-photo.png";
