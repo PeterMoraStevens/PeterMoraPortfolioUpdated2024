@@ -9,13 +9,14 @@ const POSTS = [
   //   link: "ResumeBuilder.md",
   //   date: "May 15th, 2025",
   // },
-  // {
-  //   title: "Prep for Internship @ Netflix",
-  //   description:
-  //     "I start for my internship in 3 days, here's what I've been practicing and how I'm preparing",
-  //   link: "PrepForInternship.md",
-  //   date: "May 30th, 2025",
-  // },
+  
+  {
+    title: "Prep for Internship @ Netflix",
+    description:
+      "I start for my internship in 3 days, here's what I've been practicing and how I'm preparing",
+    link: "PrepForInternship.md",
+    date: "May 30th, 2025",
+  },
   {
     title: "Expanding ACM to 12 Officers",
     description:
