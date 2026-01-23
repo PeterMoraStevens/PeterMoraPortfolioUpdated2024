@@ -1,5 +1,6 @@
 import Flipable from "../assets/Screenshot 2024-09-13 at 12.25.34 PM.png";
 import Workout from "../assets/Screenshot 2024-09-08 at 9.01.44 AM.png";
+import Mockify from "../assets/mockify.png";
 import FormaCV from "../assets/formacv-photo.png";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -7,8 +8,17 @@ import transition from "@/components/transition";
 
 const PROJECTS = [
   {
-    previewImage: FormaCV,
+    previewImage: Mockify,
     id: 0,
+    description:
+      "An open-source realtime collaberative web hosted IDE for mock interviews, supports 6 programming languages",
+    repoUrl: "https://github.com/PeterMoraStevens/mockify",
+    liveLink: "https://mockify-osu.vercel.app/",
+    notLive: false,
+  },
+  {
+    previewImage: FormaCV,
+    id: 1,
     name: "FormaCV",
     description:
       "FormaCV is a free resume, block based, resume builder web app created using React and Firebase.",
@@ -18,7 +28,7 @@ const PROJECTS = [
   },
   {
     previewImage: Flipable,
-    id: 1,
+    id: 2,
     name: "Flipable",
     description:
       "Flipable is a free-to-use flashcard storage and practice app created using React, Node, MongoDB, Clerk, Vite, DaisyUI, and Tailwind.",
@@ -28,7 +38,7 @@ const PROJECTS = [
   },
   {
     previewImage: Workout,
-    id: 2,
+    id: 3,
     name: "Workout Tracker App",
     description:
       "This project was built for my Software Engineering 1 class and was created using React, Node, MongoDB, Clerk, Vite, DaisyUI, and Tailwind.",
